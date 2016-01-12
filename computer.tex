@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{glossaries}
+ 
+\makeglossaries
+ 
+\newglossaryentry{array}
+{
+    name=array,
+    description={An array is a simple but powerful way to group and organize data. When we have a large amount of information, such as a list of 100 names, it is not practical to declare seperate variables for each piece of data. Arrays solve this problem by letting us declare one variable that can hold many values}
+}
+
+\newglossaryentry{compiler}
+{
+    name=compiler,
+    description={A compiler is a program that translate code into another type of code.  The original code is called "source code" while the code the compiler outputs is called the "target language"}
+}
+
+\newglossaryentry{float}
+{
+    name=float,
+    description={A float, or floating point number is a decimal. It can be positive or negative. A float is distinct from an integer. A 64bit floating point number is often referred to as a double.}
+}
+ 
+\newglossaryentry{maths}
+{
+    name=mathematics,
+    description={Mathematics is what mathematicians do}
+}
+ 
+\title{Computer Science Glossary}
+\author{ }
+\date{ }
+ 
+\begin{document}
+\maketitle
+ 
+The \Gls{compiler} typesetting markup language is specially suitable for documents that include \Gls{maths}, \Gls{array} and \Gls{float} 
+ 
+\clearpage
+ 
+\printglossaries
+ 
+\end{document}
